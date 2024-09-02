@@ -1074,7 +1074,7 @@ function loadGUI() {
 		{
 			"Show Tutorial": () => {
 				closeTutorialWindow(true)
-				window.open("/tutorial.html")
+				window.open("tutorial.html")
 			}
 		},
 		"Show Tutorial"
