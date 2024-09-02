@@ -1,8 +1,8 @@
-if (!localStorage.getItem('tutorialViewed')) {
-	// Show the tutorial to the user
-	window.location.href = "/tutorial.html"
-}
-closeTutorialWindow()
+// if (!localStorage.getItem('tutorialViewed')) {
+// 	// Show the tutorial to the user
+// 	window.location.href = "/tutorial.html"
+// }
+// closeTutorialWindow()
 
 import {
 	GUIMap,
