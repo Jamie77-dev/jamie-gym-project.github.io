@@ -1,0 +1,45 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "c920cf29-57e0-4fd9-8364-e6d23cacc615",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "4674c1e4-5b8c-46df-8b3c-6d7e7ae57d1c",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "19f0882f-669f-46ee-b6b2-9a9a90fe653c",
+		"type": "Mesh",
+		"name": "YogaMat",
+		"userData": {
+			"draggable": true,
+			"isParent": true
+		},
+		"layers": 1,
+		"matrix": [1.4448122513764506e-17,0.0650685591691931,0,0,-9,1.9984014443252818e-15,0,0,0,0,9,0,271,0,-71,1],
+		"up": [0,1,0],
+		"geometry": "c920cf29-57e0-4fd9-8364-e6d23cacc615",
+		"material": "4674c1e4-5b8c-46df-8b3c-6d7e7ae57d1c"
+	}
+}

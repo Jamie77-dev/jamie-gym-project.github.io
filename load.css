@@ -1,0 +1,53 @@
+/* Name - Tochukwuu Jamie Nwanozie
+Student ID - 123105341 */
+
+/* Styling for auto margins to be zero */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* Loading stylings */
+  #loading {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 11000;
+    background: #eee;
+  }
+  #progress {
+    font-size: 20px;
+    font-weight: 600;
+    left: 50%;
+    margin: -25px 0 0 -100px;
+    position: absolute;
+    text-align: center;
+    top: 46%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  #progressbar {
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    max-width: 500px;
+    background-color: #aaa;
+    border-radius: 3px;
+    height: 6px;
+    overflow: hidden;
+  }
+  #progressbar .bar {
+    background-color: rgb(255, 255, 255);
+    height: 6px;
+    width: 0%;
+  }
+  /* Video styling */
+  #video {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(67, 101, 114);
+  }
+  

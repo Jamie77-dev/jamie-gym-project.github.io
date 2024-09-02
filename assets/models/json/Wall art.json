@@ -1,0 +1,76 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "47d730a1-1838-4b7d-bbb0-f8a22b591a49",
+			"type": "BoxGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "8d414620-43b7-4ebc-b959-f0419a1fca30",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		},
+		{
+			"uuid": "c3aabd28-8d1e-49ef-9fd3-ff0857cc02cb",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 1,
+			"metalness": 0,
+			"emissive": 0,
+			"envMapRotation": [0,0,0,
+				"XYZ"],
+			"envMapIntensity": 1,
+			"blendColor": 0
+		}],
+	"object": {
+		"uuid": "0ca67741-5d9d-4297-b798-f98a3ba0ee00",
+		"type": "Group",
+		"name": "Wall art",
+		"userData": {
+			"draggable": true,
+			"isParent": true
+		},
+		"layers": 1,
+		"matrix": [-0.0008835811034424434,-3.286254739474101e-14,-0.9999996096421406,0,4.730325871508207e-17,0.5059347915600446,-1.662635435278401e-14,0,0.188323598442697,-2.3075963121996995e-17,-0.00016639923787150016,0,329.8100998962272,21.151393992475676,16.783224703825383,1],
+		"up": [0,1,0],
+		"children": [
+			{
+				"uuid": "9b7a640d-457d-4e48-bae7-91d88774e1d3",
+				"type": "Mesh",
+				"name": "glass",
+				"layers": 1,
+				"matrix": [8.448230959365695e-15,38.04744980053923,0,0,-0.13031698142550788,2.893618265564954e-17,0,0,0,0,86.60513246772489,0,-13.67890391893076,24.301650806565696,-59.45807705466028,1],
+				"up": [0,1,0],
+				"geometry": "47d730a1-1838-4b7d-bbb0-f8a22b591a49",
+				"material": "8d414620-43b7-4ebc-b959-f0419a1fca30"
+			},
+			{
+				"uuid": "2469183f-b1f8-49f1-9a98-3ce39a72a15f",
+				"type": "Mesh",
+				"name": "frame",
+				"layers": 1,
+				"matrix": [8.448230959365695e-15,38.04744980053923,0,0,-1.1565008943933162,2.5679478419100924e-16,0,0,0,0,86.60513246772489,0,-12.942530140457789,24.301650806565696,-59.45807705466028,1],
+				"up": [0,1,0],
+				"geometry": "47d730a1-1838-4b7d-bbb0-f8a22b591a49",
+				"material": "c3aabd28-8d1e-49ef-9fd3-ff0857cc02cb"
+			}]
+	}
+}
