@@ -822,7 +822,7 @@ function loadGUI() {
 		};
 		const m = folderModels.add(obj, name);
 		const img = document.createElement("img");
-		img.src = `../assets/images/${map.image}.jpg`;
+		img.src = `./assets/images/${map.image}.jpg`;
 		img.style.marginLeft = "10px";
 		img.style.marginRight = "10px";
 		img.style.width = "20px";
