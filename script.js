@@ -773,7 +773,7 @@ function loadGUI() {
 				if (name == "Wall Art") {
 					const n = Math.floor(Math.random() * 5) + 1;
 					const mat = new THREE.MeshStandardMaterial({
-						map: textureLoader.load(`./assets/textures/wallArts/${n}.jpg`),
+						map: textureLoader.load(`/assets/textures/wallArts/${n}.jpg`),
 					});
 					obj.children[0].material = mat;
 				} else if (name === "Coffee Table") {
