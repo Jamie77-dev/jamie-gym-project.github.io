@@ -544,45 +544,45 @@ function loadSigns(scene, material) {
 
 function loadHumans(scene, material) {
 	Human().then((obj) => {
-		obj.position.set(168.1, 0, -74.98);
+		obj.position.set(184.1, 0, -144.98);
 		scene.add(obj);
 	});
 	
 	Human().then((obj) => {
-		obj.position.set(37.34, 0, 59.42);
+		obj.position.set(174.34, 9, 14.42);
 		scene.add(obj);	
 	})
 }
 function loadAssets(scene, render, material) {
 	const functions = [
-		loadGlassDoor,
+		// loadGlassDoor,
 		loadBoxingRing,
-		loadArmChair,
-		loadCabinet,
-		loadTreadMill,
-		loadVendingMachine,
-		loadCoffeeSet,
-		loadExerciseBike,
-		loadCouch,
+		// loadArmChair,
+		// loadCabinet,
+		// loadTreadMill,
+		// loadVendingMachine,
+		// loadCoffeeSet,
+		// loadExerciseBike,
+		// loadCouch,
 		loadReceptionDesk,
-		loadClock,
-		loadWallArts,
-		loadYogaMat,
-		loadDumbbellRack,
-		loadSigns,
-		loadWindow,
-		loadSmallDoor,
-		loadBench,
-		loadCoffeeTable,
-		loadMoreWallArts,
+		// loadClock,
+		// loadWallArts,
+		// loadYogaMat,
+		// loadDumbbellRack,
+		// loadSigns,
+		// loadWindow,
+		// loadSmallDoor,
+		// loadBench,
+		// loadCoffeeTable,
+		// loadMoreWallArts,
 
-		loadElliptical,
-		loadKettleBell,
-		loadPlant,
-		loadPullUpObject,
-		loadReebokBike,
-		loadSpinningBike,
-		loadTotalTrainer,
+		// loadElliptical,
+		// loadKettleBell,
+		// loadPlant,
+		// loadPullUpObject,
+		// loadReebokBike,
+		// loadSpinningBike,
+		// loadTotalTrainer,
 		loadHumans
 	];
 	functions.forEach((func) => {

@@ -221,7 +221,7 @@ function init() {
 
 	// the transform controls (movement)
 	control = new TransformControls(camera, renderer.domElement);
-	control.showY = false
+	// control.showY = false
 	control.addEventListener("change", () => {
 		if (control.object) {
 			const wall = checkCollision(control.object, collideWalls)
