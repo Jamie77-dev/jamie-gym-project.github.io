@@ -1,0 +1,38 @@
+<!-- Name - Tochukwu Jamie Nwanozie
+Student ID - 123105341 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Interactive 3D Gym Designer</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="load.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+</head>
+
+<body>
+
+  <script type="importmap">
+      {
+        "imports": {
+          "three": "./libs/three.module.js"
+        }
+      }
+  </script>
+  <div id="loading-screen">
+    <div id="progress">Loading the Gym Experience : <span id="loading-progress">0%</span></div>
+    <div id="progressbar">
+      <div class="bar"></div>
+    </div>
+  </div>
+  <div id="container" style="display: none;">
+    <div id="toast" class="toast">Object Cloned!</div>
+  </div>
+  <script type="module" src="./script.js"></script>
+  </body>
+</body>
+<!-- This is the comment here -->
+</html>
