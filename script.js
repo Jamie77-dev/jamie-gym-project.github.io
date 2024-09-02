@@ -1074,7 +1074,7 @@ function loadGUI() {
 		{
 			"Show Tutorial": () => {
 				closeTutorialWindow(true)
-				window.open("jamie-gym-project.github.io/tutorial.html")
+				window.open("/tutorial.html")
 			}
 		},
 		"Show Tutorial"
