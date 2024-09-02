@@ -46,7 +46,7 @@ export const GUIMap = {
 	},
 	bench: {
 		name: "Bench",
-		image: "Bench",
+		image: "bench",
 		func: Bench,
 		place: gym2,
 	},
@@ -58,19 +58,19 @@ export const GUIMap = {
 	},
 	 cabinet: {
 	 	name: "Cabinet",
-	 	image: "Cabinet",
+	 	image: "cabinet",
 	 	func: Cabinet,
 	 	place: restingArea,
 	 },
 	 clock: {
 	 	name: "Clock",
-	 	image: "Clock",
+	 	image: "clock",
 	 	func: Clock,
 	 	position: [89.18, 37.0, -165.74]
 	 },
 	 couch: {
 	 	name: "Couch",
-	 	image: "Couch",
+	 	image: "couch",
 	 	func: Couch,
 	 	place: restingArea,
 	 },
@@ -88,19 +88,19 @@ export const GUIMap = {
 	 },
 	cupSet: {
 		name: "Cup Set",
-		image: "CupSet",
+		image: "cupSet",
 		func: CSet,
 		position: [38.65, 11.911, -145.037]
 	},
 	 dumbbellRack: {
 	 	name: "Dumbbell Rack",
-	 	image: "DumbbellRack",
+	 	image: "dumbbellRack",
 	 	func: DumbbellRack,
 	 	place: weightRoom,
 	 },
 	 exerciseBike: {
 	 	name: "Exercise Bike",
-	 	image: "ExerciseBike",
+	 	image: "exerciseBike",
 	 	func: ExerciseBike,
 	 	place: gym1,
 	 },
@@ -112,7 +112,7 @@ export const GUIMap = {
 	 },
 	 mat: {
 	 	name: "Mat",
-	 	image: "Mat",
+	 	image: "mat",
 	 	func: Mat,
 	 	place: restingArea,
 	 },
@@ -142,7 +142,7 @@ export const GUIMap = {
 	 },
 	teaPot: {
 		name: "Tea Pot",
-		image: "Teapot",
+		image: "teapot",
 		func: TeaPot,
 		position: [38.65, 11.911, -145.037]
 	},
