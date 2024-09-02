@@ -1,6 +1,6 @@
 if (!localStorage.getItem('tutorialViewed')) {
 	// Show the tutorial to the user
-	window.location.href = "/tutorial.html"
+	window.location.href = "tutorial.html"
 }
 closeTutorialWindow()
 
