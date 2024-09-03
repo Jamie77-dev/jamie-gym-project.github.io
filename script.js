@@ -1092,6 +1092,14 @@ function loadGUI() {
 		"Clear Canvas"
 	);
 	// clear canvas
+	gui.add(
+		{
+			"Go to Home": () => {
+				window.location.href = "index.html"
+			}
+		},
+		"Go to Home"
+	)
 }
 
 
