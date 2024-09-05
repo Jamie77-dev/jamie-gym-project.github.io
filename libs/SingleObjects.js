@@ -597,7 +597,7 @@ export function DumbbellRack() {
 		objectLoader.load(`${MODEL_PATH}/json/DumbbellRack.json`, (obj) => {
 			addUserDataRecursively(obj);
 			obj.userData.isParent = true;
-			obj.position.set(...POSITION);
+			obj.position.set(0, .5, 0);
 			resolve(obj);
 		});
 	});
